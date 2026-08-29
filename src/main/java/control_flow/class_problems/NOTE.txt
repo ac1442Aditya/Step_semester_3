@@ -1,0 +1,7 @@
+This folder is for problems solved LIVE during the session (as per the
+GitHub Structure Guide, Step 7). Put those .java files here.
+
+The take-home assignment problems go in the assigment_problems folder
+next to this one.
+
+You can delete this NOTE.txt once you add real .java files here.
