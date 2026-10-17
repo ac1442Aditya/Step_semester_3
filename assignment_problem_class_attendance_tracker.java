@@ -1,17 +1,4 @@
-/*
- * Problem 6: Class Attendance Tracker
- *
- * Approach: walk through the days once. Every 1 adds to the present total and
- * extends the current streak; every 0 resets the streak to zero. The longest
- * streak is the largest value the running streak ever reaches.
- *
- * Complexity:
- *   Time  - O(n), a single pass.
- *   Space - O(1), three counters.
- *
- * Both answers come out of the same single pass, so there is no need to loop
- * over the array twice.
- */
+
 public class assignment_problem_class_attendance_tracker {
 
     // returns {presentDays, longestStreak}
