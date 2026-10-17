@@ -1,14 +1,4 @@
-/*
- * Problem 10: Busiest Bus Row
- *
- * Approach: an outer loop goes through the rows and an inner loop adds up the
- * seats in that row. The best row is only replaced when a total is strictly
- * larger, so on a tie the row with the smaller index stays.
- *
- * Complexity:
- *   Time  - O(r * c), every seat in the grid is looked at once.
- *   Space - O(1) extra, just the running total and the best row so far.
- */
+
 public class assignment_problem_busiest_bus_row {
 
     // returns {rowIndex, total}
